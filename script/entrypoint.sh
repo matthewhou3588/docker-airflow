@@ -12,10 +12,10 @@ TRY_LOOP="20"
 : "${POSTGRES_PASSWORD:="airflow"}"
 : "${POSTGRES_DB:="airflow"}"
 
-: "${MYSQL_HOST:="10.228.5.1"}"
+: "${MYSQL_HOST:="*.*.*.*"}"
 : "${MYSQL_PORT:="3306"}"
 : "${MYSQL_USER:="root"}"
-: "${MYSQL_PASSWORD:="rootdfxb"}"
+: "${MYSQL_PASSWORD:="root"}"
 : "${MYSQL_DB:="airflow"}"
 
 # Defaults and back-compat
