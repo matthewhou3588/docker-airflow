@@ -46,6 +46,8 @@ RUN set -ex \
         curl \
         rsync \
         netcat \
+        vim-gtk \
+        procps \
         locales \
     && sed -i 's/^# en_US.UTF-8 UTF-8$/en_US.UTF-8 UTF-8/g' /etc/locale.gen \
     && locale-gen \
